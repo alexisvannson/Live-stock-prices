@@ -1,8 +1,6 @@
 import requests
 import json
 import yfinance as yf
-import matplotlib.pyplot as plt
-import yfinance as yf
 import plotly.graph_objects as go
 
 
