@@ -3,11 +3,6 @@ import json
 import yfinance as yf
 import matplotlib.pyplot as plt
 
-# Alpha Vantage API for IBM intraday data
-alpha_vantage_url = 'https://www.alphavantage.co/query?function=TIME_SERIES_INTRADAY&symbol=IBM&interval=5min&apikey=OUNY4EOMK9C99MBR'
-alpha_vantage_response = requests.get(alpha_vantage_url)
-alpha_vantage_data = alpha_vantage_response.json()
-
 # Yahoo Finance for historical stock data (AMZN, AAPL, GOOG)
 tickers = ["AMZN", "AAPL", "GOOG", "DOW", "GC=F", "MSFT", "TSLA", "NFLX", "NVDA",
             "GOOGL", "IBM", "CSCO", "INTC", "C", "JPM", "BAC", "DIS", "V", 
