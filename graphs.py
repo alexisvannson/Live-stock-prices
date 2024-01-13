@@ -40,7 +40,7 @@ yfinance_data = yf.download(tickers, start="2023-01-01", end="2024-01-02")
 for i in range(len(tickers)):
     plt.figure(figsize=(10, 5))
     plt.plot(yfinance_data.index, yfinance_data['Close'][tickers[i]])
-    plt.title(f'Stock Price Evolution - {companies[i]}') # change that part
+    plt.title(f'Stock Price Evolution - {companies[i]}') 
     plt.xlabel('Date')
     plt.ylabel('Closing Price')
     plt.legend()
