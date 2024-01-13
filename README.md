@@ -8,7 +8,7 @@ Certainly! Let's break down the code step by step:
    import yfinance as yf
    import plotly.graph_objects as go
    ```
-   - The script imports necessary libraries for making HTTP requests (`requests`), working with JSON data (`json`), fetching financial data from Yahoo Finance (`yfinance`), and creating interactive plots (`plotly`).
+   - The script fetches financial data from Yahoo Finance (`yfinance`), and creating interactive plots (`plotly`).
 
 2. **Stock Tickers and Company Names:**
    ```python
