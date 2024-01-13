@@ -5,8 +5,6 @@ Certainly! Let's break down the code step by step:
 
 1. **Imports:**
    ```python
-   import requests
-   import json
    import yfinance as yf
    import plotly.graph_objects as go
    ```
